@@ -14,6 +14,21 @@
   <scm>
   	<url>http://wb-d-app1/svn/droid5</url>
   </scm>
+  <modules>
+   <module>droid-core</module>
+   <module>droid-core-interfaces</module>
+   <module>droid-build-tools</module>
+   <module>droid-command-line</module>
+   <module>droid-binary</module>
+   <module>droid-container</module>
+   <module>droid-export</module>
+   <module>droid-export-interfaces</module>
+   <module>droid-help</module>
+   <module>droid-report</module>
+   <module>droid-report-interfaces</module>
+   <module>droid-results</module>
+   <module>droid-swing-ui</module>
+  </modules>
   <build>
     <resources>
         <resource>
@@ -45,6 +60,7 @@
                 <useSystemClassLoader>false</useSystemClassLoader>
             </configuration>
         </plugin>
+<!--
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
@@ -60,7 +76,7 @@
            </execution>
          </executions>
         <configuration>
-           <configLocation>uk/gov/nationalarchives/droid/checkstyle-main.xml</configLocation>
+           <configLocation>/uk/gov/nationalarchives/droid/checkstyle-main.xml</configLocation>
            <failOnViolation>true</failOnViolation>
            <enableFilesSummary>true</enableFilesSummary>
            <suppressionsLocation>checkstyle/suppressions.xml</suppressionsLocation>
@@ -74,6 +90,7 @@
 	        </dependency>
         </dependencies>
       </plugin>
+-->
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-assembly-plugin</artifactId>
