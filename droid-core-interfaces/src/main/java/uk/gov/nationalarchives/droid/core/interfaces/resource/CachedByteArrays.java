@@ -11,6 +11,7 @@ package uk.gov.nationalarchives.droid.core.interfaces.resource;
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.RandomAccessFile;
@@ -115,6 +116,7 @@ public final class CachedByteArrays implements CachedBytes {
     public void close() throws IOException {
         if (raf != null) {
             raf.close();
+            raf = null;
         }
     }
 
@@ -130,8 +132,11 @@ public final class CachedByteArrays implements CachedBytes {
     /**
      * Gets the internal random access file.
      * @return the internal random access file.
+     * @throws FileNotFoundException 
      */
-    RandomAccessFile getRaf() {
+    RandomAccessFile getRaf() throws FileNotFoundException {
+    	if( raf == null ) 
+            raf = new RandomAccessFile(source, READ_ONLY);
         return raf;
     }
 
@@ -179,8 +184,8 @@ public final class CachedByteArrays implements CachedBytes {
         this.source = sourceFile;
         if (raf != null) {
             raf.close();
+            raf = null;
         }
-        raf = new RandomAccessFile(source, READ_ONLY);
     }
 
 }
