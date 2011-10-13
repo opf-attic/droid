@@ -52,7 +52,7 @@ public class ContainerSignatureHttpServiceTest {
         assertEquals(false, sigFileInfo.isDeprecated());
     }
     
-    @Test
+    //@Test
     public void testGetLatestVersionViaProxy() throws SignatureServiceException {
         when(proxySettings.isEnabled()).thenReturn(true);
         when(proxySettings.getProxyHost()).thenReturn("wb-cacheclst1.web.local");
@@ -90,7 +90,7 @@ public class ContainerSignatureHttpServiceTest {
         assertEquals(1, tmpDir.list().length);
     }
     
-    @Test
+    //@Test
     public void testImportSignatureFileViaProxy() {
         when(proxySettings.isEnabled()).thenReturn(true);
         when(proxySettings.getProxyHost()).thenReturn("wb-cacheclst1.web.local");
