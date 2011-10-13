@@ -56,14 +56,14 @@
   		<scope>test</scope>
   	</dependency>
   	<dependency>
-  		<groupId>org.openide</groupId>
+  		<groupId>org.netbeans.api</groupId>
   		<artifactId>org-openide-util</artifactId>
-  		<version>1</version>
+  		<version>RELEASE701</version>
   	</dependency>
   	<dependency>
-  		<groupId>org.openide</groupId>
-  		<artifactId>swing-outline</artifactId>
-  		<version>1.4.1</version>
+  		<groupId>org.netbeans.api</groupId>
+  		<artifactId>org-netbeans-swing-outline</artifactId>
+  		<version>RELEASE701</version>
   	</dependency>
     <dependency>
     	<groupId>net.sf.jfcunit</groupId>
@@ -73,9 +73,9 @@
     	<scope>test</scope>
     </dependency>
     <dependency>
-    	<groupId>beansbinding</groupId>
-    	<artifactId>beansbinding</artifactId>
-    	<version>1.2.1</version>
+    	<groupId>org.netbeans.api</groupId>
+    	<artifactId>org-jdesktop-beansbinding</artifactId>
+    	<version>RELEASE701</version>
     	<type>jar</type>
     	<scope>compile</scope>
     </dependency>
@@ -135,5 +135,11 @@
   	</dependencies>
   </dependencyManagement>
     <name>droid-ui</name>
+<repositories>
+    <repository>
+      <id>netbeans-maven-repo</id>
+      <url>http://bits.netbeans.org/maven2/</url>
+    </repository>
+  </repositories>
 </project>
 
