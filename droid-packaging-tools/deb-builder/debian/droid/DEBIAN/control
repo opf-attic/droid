@@ -1,9 +1,0 @@
-Package: droid
-Version: 6.0.1
-Architecture: all
-Maintainer: The National Archives (UK) <digitalpreservation@nationalarchives.gsi.gov.uk>
-Installed-Size: 39916
-Depends: sun-java6-jre, sun-java6-bin
-Section: utilities
-Priority: extra
-Description: Automatic file format identification tool based around data in the PRONOM registry
