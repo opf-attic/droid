@@ -1,0 +1,6 @@
+droid (6.0.1) unstable; urgency=low
+
+  [David Tarrant <davetaz@ecs.soton.ac.uk>]
+  * Initial Debain Package of the DROID file format identification tool
+
+ -- David Tarrant <davetaz@ecs.soton.ac.uk>  Thu, 29 Sep 2011 10:37:11 +0100

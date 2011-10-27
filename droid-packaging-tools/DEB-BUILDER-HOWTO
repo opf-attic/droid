@@ -1,0 +1,25 @@
+Copy all the files in the deb-builder directory into the base path of droid. 
+
+The directory should look like the following:
+
+- build-stamp
+- CHANGELOG
+- configure
+- debian
+- droid
+   |
+   - droid.sh
+   - droid.bat
+   - droid-command-line-X.X.jar
+   - (rest of droid)
+- LICENSE
+- Makefile
+- README
+
+You MUST update the CHANGELOG to reflect changes, the syntax and spacing in this file is CRITICAL
+
+To update dependancies, edit debian/control
+
+To build run dpkg-buildpackage (which must be installed on your build machine)
+
+More on building debian packages can be found by googling. 
