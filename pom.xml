@@ -10,8 +10,8 @@
   <artifactId>droid</artifactId>
   <version>6.0.2-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>droid</name>
-  <url>http://maven.apache.org</url>
+  <name>Droid - Format Identification</name>
+  <url>https://github.com/openplanets/droid/tree/scape-dist</url>
   <issueManagement>
   	<system>GitHub Issues</system>
   	<url>https://github.com/openplanets/droid/issues</url>
@@ -21,6 +21,12 @@
     <developerConnection>scm:git:git@github.com:openplanets/droid.git</developerConnection>
     <url>git@github.com:openplanets/droid.git</url>
   </scm>
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>http://www.opensource.org/licenses/bsd-license.html</url>
+    </license>
+  </licenses>  
   <modules>
    <module>droid-core</module>
    <module>droid-byteseek</module>
@@ -170,4 +176,5 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <description>A tweaked version of the UK National Archives DROID identification tool. Built during the course of the SCAPE project, e.g. to permit the tool to be run as a Map-Reduce task.</description>
 </project>
