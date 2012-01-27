@@ -16,6 +16,7 @@
   </scm>
   <modules>
    <module>droid-core</module>
+   <module>droid-byteseek</module>
    <module>droid-core-interfaces</module>
    <module>droid-build-tools</module>
    <module>droid-command-line</module>
