@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>uk.gov.nationalarchives</groupId>
+  <groupId>eu.scape-project.droid</groupId>
   <artifactId>droid-container</artifactId>
   <packaging>jar</packaging>
 
@@ -14,8 +14,8 @@
   </properties>
   <parent>
   	<artifactId>droid</artifactId>
-  	<groupId>uk.gov.nationalarchives</groupId>
-  	<version>6.0</version>
+  	<groupId>eu.scape-project.droid</groupId>
+  	<version>6.0.2-SNAPSHOT</version>
   </parent>
   
   <build>
@@ -49,7 +49,7 @@
                 <packageBranchRate>83</packageBranchRate>
                 <regexes>
                   <regex>
-                    <pattern>uk.gov.nationalarchives</pattern>
+                    <pattern>eu.scape-project.droid</pattern>
                     <branchRate>95</branchRate>
                     <lineRate>95</lineRate>
                   </regex>
@@ -75,16 +75,16 @@
 
   <dependencies>
   	<dependency>
-  		<groupId>uk.gov.nationalarchives</groupId>
+  		<groupId>eu.scape-project.droid</groupId>
   		<artifactId>droid-core-interfaces</artifactId>
-  		<version>6.0</version>
+  		<version>6.0.2-SNAPSHOT</version>
   		<type>jar</type>
   		<scope>compile</scope>
   	</dependency>
   	<dependency>
-  		<groupId>uk.gov.nationalarchives</groupId>
+  		<groupId>eu.scape-project.droid</groupId>
   		<artifactId>droid-core</artifactId>
-  		<version>6.0</version>
+  		<version>6.0.2-SNAPSHOT</version>
   		<type>jar</type>
   		<scope>compile</scope>
   	</dependency>

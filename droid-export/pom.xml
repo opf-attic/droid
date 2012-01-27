@@ -2,8 +2,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<parent>
 		<artifactId>droid</artifactId>
-		<groupId>uk.gov.nationalarchives</groupId>
-		<version>6.0</version>
+		<groupId>eu.scape-project.droid</groupId>
+		<version>6.0.2-SNAPSHOT</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>droid-export</artifactId>
@@ -18,9 +18,9 @@
 	</build>
 	<dependencies>
 		<dependency>
-			<groupId>uk.gov.nationalarchives</groupId>
+			<groupId>eu.scape-project.droid</groupId>
 			<artifactId>droid-results</artifactId>
-			<version>6.0</version>
+			<version>6.0.2-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>net.sf.opencsv</groupId>
@@ -30,9 +30,9 @@
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
-			<groupId>uk.gov.nationalarchives</groupId>
+			<groupId>eu.scape-project.droid</groupId>
 			<artifactId>droid-export-interfaces</artifactId>
-			<version>6.0</version>
+			<version>6.0.2-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-beanutils</groupId>

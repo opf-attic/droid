@@ -7,8 +7,8 @@
   <url>http://maven.apache.org</url>
   <parent>
   	<artifactId>droid</artifactId>
-  	<groupId>uk.gov.nationalarchives</groupId>
-  	<version>6.0</version>
+  	<groupId>eu.scape-project.droid</groupId>
+  	<version>6.0.2-SNAPSHOT</version>
   </parent>
   <build>
   	<resources>
@@ -37,7 +37,7 @@
                 <packageBranchRate>95</packageBranchRate>
                 <regexes>
                   <regex>
-                    <pattern>uk.gov.nationalarchives</pattern>
+                    <pattern>eu.scape-project.droid</pattern>
                     <branchRate>95</branchRate>
                     <lineRate>95</lineRate>
                   </regex>
@@ -177,16 +177,16 @@
   		<scope>runtime</scope>
   	</dependency>
   	<dependency>
-  		<groupId>uk.gov.nationalarchives</groupId>
+  		<groupId>eu.scape-project.droid</groupId>
   		<artifactId>droid-core-interfaces</artifactId>
-  		<version>6.0</version>
+  		<version>6.0.2-SNAPSHOT</version>
   		<type>jar</type>
   		<scope>compile</scope>
   	</dependency>
   	<dependency>
-  		<groupId>uk.gov.nationalarchives</groupId>
+  		<groupId>eu.scape-project.droid</groupId>
   		<artifactId>droid-core</artifactId>
-  		<version>6.0</version>
+  		<version>6.0.2-SNAPSHOT</version>
   		<type>jar</type>
   		<scope>runtime</scope>
   	</dependency>
@@ -233,9 +233,9 @@
   		<scope>compile</scope>
   	</dependency>
   	<dependency>
-  		<groupId>uk.gov.nationalarchives</groupId>
+  		<groupId>eu.scape-project.droid</groupId>
   		<artifactId>droid-export-interfaces</artifactId>
-  		<version>6.0</version>
+  		<version>6.0.2-SNAPSHOT</version>
   	</dependency>
   	<dependency>
   		<groupId>org.springframework</groupId>
@@ -245,9 +245,9 @@
   		<scope>compile</scope>
   	</dependency>
   	<dependency>
-  		<groupId>uk.gov.nationalarchives</groupId>
+  		<groupId>eu.scape-project.droid</groupId>
   		<artifactId>droid-container</artifactId>
-  		<version>6.0</version>
+  		<version>6.0.2-SNAPSHOT</version>
   		<type>jar</type>
   		<scope>compile</scope>
   	</dependency>

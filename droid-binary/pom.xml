@@ -1,10 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>uk.gov.nationalarchives</groupId>
+  <groupId>eu.scape-project.droid</groupId>
   <artifactId>droid-binary</artifactId>
   <packaging>pom</packaging>
-  <version>6.0</version>
+  <version>6.0.2-SNAPSHOT</version>
   <name>droid-binaries</name>
+	<parent>
+		<artifactId>droid</artifactId>
+		<groupId>eu.scape-project.droid</groupId>
+		<version>6.0.2-SNAPSHOT</version>
+	</parent>
   <build>
     <plugins>
       <plugin>
@@ -30,16 +35,16 @@
   </build>
   <dependencies>
   	<dependency>
-  		<groupId>uk.gov.nationalarchives</groupId>
+  		<groupId>eu.scape-project.droid</groupId>
   		<artifactId>droid-command-line</artifactId>
-  		<version>6.0</version>
+  		<version>6.0.2-SNAPSHOT</version>
   		<type>jar</type>
   		<scope>runtime</scope>
   	</dependency>
   	<dependency>
-  		<groupId>uk.gov.nationalarchives</groupId>
+  		<groupId>eu.scape-project.droid</groupId>
   		<artifactId>droid-ui</artifactId>
-  		<version>6.0</version>
+  		<version>6.0.2-SNAPSHOT</version>
   		<scope>runtime</scope>
   	</dependency>
   </dependencies>
