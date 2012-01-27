@@ -105,7 +105,7 @@ public class ContainerFile {
             } catch (SignatureParseException e) {
                 compileError = true;
                 signatures = null;
-                String message = String.format("Could not parse signature:\n%s", element.getTextContent());
+                String message = String.format("Could not parse signature:\n%s", element.getNodeValue());
                 log.warn(message);
             }
         }
