@@ -37,7 +37,7 @@
                 <packageBranchRate>95</packageBranchRate>
                 <regexes>
                   <regex>
-                    <pattern>eu.scape-project.droid</pattern>
+                    <pattern>uk.gov.nationalarchives</pattern>
                     <branchRate>95</branchRate>
                     <lineRate>95</lineRate>
                   </regex>
@@ -107,7 +107,7 @@
              <manifest>
                <addClasspath>true</addClasspath>
                <classpathPrefix>lib/</classpathPrefix>
-               <mainClass>eu.scape-project.droid.droid.command.DroidCommandLine</mainClass>
+               <mainClass>uk.gov.nationalarchives.droid.command.DroidCommandLine</mainClass>
                <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
              </manifest>
            </archive>

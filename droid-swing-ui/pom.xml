@@ -40,7 +40,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>eu.scape-project.droid.droid.gui.DroidMainFrame</mainClass>
+							<mainClass>uk.gov.nationalarchives.droid.gui.DroidMainFrame</mainClass>
 						</manifest>
 					</archive>
 				</configuration>

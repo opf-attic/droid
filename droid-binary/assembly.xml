@@ -12,16 +12,16 @@
       <scope>runtime</scope>
       <outputDirectory>lib</outputDirectory>
       <excludes>
-        <exclude>uk.gov.nationalarchives:droid-ui</exclude>
-        <exclude>uk.gov.nationalarchives:droid-command-line</exclude>
+        <exclude>eu.scape-project.droid:droid-ui</exclude>
+        <exclude>eu.scape-project.droid:droid-command-line</exclude>
       </excludes>
     </dependencySet>
     <dependencySet>
       <unpack>false</unpack>
       <scope>runtime</scope>
       <includes>
-        <include>uk.gov.nationalarchives:droid-ui</include>
-        <include>uk.gov.nationalarchives:droid-command-line</include>
+        <include>eu.scape-project.droid:droid-ui</include>
+        <include>eu.scape-project.droid:droid-command-line</include>
       </includes>
     </dependencySet>
   </dependencySets>

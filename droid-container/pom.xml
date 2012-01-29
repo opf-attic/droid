@@ -49,7 +49,7 @@
                 <packageBranchRate>83</packageBranchRate>
                 <regexes>
                   <regex>
-                    <pattern>eu.scape-project.droid</pattern>
+                    <pattern>uk.gov.nationalarchives</pattern>
                     <branchRate>95</branchRate>
                     <lineRate>95</lineRate>
                   </regex>
