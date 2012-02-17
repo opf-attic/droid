@@ -142,7 +142,7 @@ public final class BinarySignatureIdentifier implements DroidCore {
     /**
      * @return the sigFile
      */
-    FFSignatureFile getSigFile() {
+    public FFSignatureFile getSigFile() {
         return sigFile;
     }
 
